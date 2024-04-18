@@ -40,6 +40,7 @@
     "function-bind": "^1.1.2",
     "glob": "^10.3.12",
     "glob-parent": "^6.0.2",
+    "gsap": "^3.12.5",
     "hasown": "^2.0.2",
     "is-binary-path": "^2.1.0",
     "is-core-module": "^2.13.1",

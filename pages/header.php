@@ -21,7 +21,10 @@
             <li>Contact</li>
         </ul>
 
-        <ul class="iconSearch"><i class="fa-solid fa-magnifying-glass"></i></ul>
+        <ul class="iconSearch">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </ul>
     </header>
 </body>
 </html>

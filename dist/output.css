@@ -554,9 +554,47 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 * {
   list-style: none;
   color: black;
+}
+
+i {
+  cursor: pointer;
 }
 
 /* Disign du header 
@@ -617,5 +655,35 @@ header .iconSearch {
   margin-top: 0.5rem;
 }
 
+header .iconSearch input {
+  border-style: none;
+}
+
+header .iconSearch input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+header .iconSearch input {
+  display: none;
+}
+
 /* header end */
 
+/* Test */
+
+.container {
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.testAnimation {
+  height: 10rem;
+  width: 14rem;
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}

@@ -6,6 +6,9 @@
     list-style: none;
     color: black;
 }
+i {
+    cursor: pointer;
+}
 
 /* Disign du header 
 header start
@@ -29,5 +32,19 @@ header .subject li:hover {
 header .iconSearch {
     @apply absolute right-3 mr-5 mt-2;
 }
+header .iconSearch input {
+    @apply border-none focus:outline-none;
+}
+header .iconSearch input{
+    @apply hidden;
+}
 /* header end */
 
+/* Test */
+
+.container {
+    @apply w-full justify-center items-center m-auto p-10;
+}
+.testAnimation {
+    @apply h-40 w-56 bg-gray-600 rounded-md;
+}

@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
     <?php
         require_once("./pages/header.php");
+        require_once("pages/pageIconStyle.php");
     ?>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php
+        echo $iconLink;
+        echo $styleLink;
+    ?>
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="testAnimation">
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p> -->
+        </div>
+    </div>
+
+    <?php
+        // echo $scriptCDN ."\n";
+        // echo $scriptLink;
+    ?>
+
 </body>
 </html>
