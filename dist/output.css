@@ -553,3 +553,25 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+* {
+  list-style: none;
+  color: black;
+}
+
+header {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+header .subject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+header .subject li {
+  margin: 0.5rem;
+  font-weight: 500;
+}

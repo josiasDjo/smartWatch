@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, assumenda.</p>
+    <?php
+        require_once("./pages/header.php");
+    ?>
 </body>
 </html>
