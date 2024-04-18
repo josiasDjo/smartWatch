@@ -559,12 +559,39 @@ video {
   color: black;
 }
 
+/* Disign du header 
+header start
+*/
+
 header {
+  margin-top: 0.25rem;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border-bottom-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 1.5rem;
+  padding-right: 1.75rem;
+  padding-left: 1.75rem;
+  padding-bottom: 1rem;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+header img {
+  position: absolute;
+  left: 0.75rem;
+  margin-left: 1rem;
+  width: 2.5rem;
 }
 
 header .subject {
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -575,3 +602,20 @@ header .subject li {
   margin: 0.5rem;
   font-weight: 500;
 }
+
+header .subject li:hover {
+  cursor: pointer;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+header .iconSearch {
+  position: absolute;
+  right: 0.75rem;
+  margin-right: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+/* header end */
+

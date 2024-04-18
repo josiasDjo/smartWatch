@@ -5,14 +5,14 @@
     <!-- <link href=' dist/output.css' rel='stylesheet'> -->
     <?php
         require_once("pageIconStyle.php");
-        $styleLink;
-        $iconLink;
+        echo $styleLink;
+        echo $iconLink;
     ?>
     <title>Document</title>
 </l>
 <body>
     <header>
-
+        <img src="./src/images/images.png" alt="logo">
         <ul class="subject">
             <li>Home</li>
             <li>Explore</li>
@@ -21,7 +21,7 @@
             <li>Contact</li>
         </ul>
 
-        <ul></ul>
+        <ul class="iconSearch"><i class="fa-solid fa-magnifying-glass"></i></ul>
     </header>
 </body>
 </html>
