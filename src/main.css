@@ -15,7 +15,7 @@ header start
 */
 header {
     @apply bg-gray-100 flex flex-row pt-6 pr-7 pl-7 border-b-2 border-solid  mt-1
-    border-slate-300 w-full pb-4 shadow-md;
+    border-slate-300 w-full pb-4 shadow-md drop-shadow-sm;
 }
 header img {
     @apply w-10 absolute left-3 ml-4;
@@ -55,16 +55,16 @@ header .iconSearch i:hover {
     @apply hidden;
 }
 .container_Explore .gallery-image li :first-child {
-    @apply shadow-orange-300 flex-auto ;
+    @apply shadow-orange-300 block ;
 }
 .container_Explore .gallery-image .btn-left {
-    @apply border-2 border-solid rounded-full bg-white;
+    @apply border-2 border-solid rounded-full bg-white drop-shadow-xl;
 }
 .container_Explore .gallery-image .btn-right {
-    @apply border-2 border-solid rounded-full absolute right-4 bg-white;
+    @apply border-2 border-solid rounded-full absolute right-4 bg-white drop-shadow-xl;
 }
 .container_Explore .gallery-image .btn-left:hover, .btn-right :hover {
-    @apply border-2 border-solid border-green-400 rounded-full;
+    @apply border-2 border-solid border-green-400 rounded-full drop-shadow-xl;
 }
 .container_Explore .gallery-image i {
     @apply text-slate-200 text-4xl p-3;
