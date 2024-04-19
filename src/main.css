@@ -14,8 +14,8 @@ i {
 header start
 */
 header {
-    @apply bg-white flex flex-row pt-6 pr-7 pl-7 border-b-2 border-solid  mt-1
-    border-slate-200 w-full pb-4 shadow-md;
+    @apply bg-gray-100 flex flex-row pt-6 pr-7 pl-7 border-b-2 border-solid  mt-1
+    border-slate-300 w-full pb-4 shadow-md;
 }
 header img {
     @apply w-10 absolute left-3 ml-4;
@@ -46,20 +46,26 @@ header .iconSearch i:hover {
 /* EXPLORE section */
 
 .container_Explore {
-    @apply w-full h-96 bg-slate-300 text-center flex;
+    @apply w-full h-96 bg-gray-100 text-center flex;
 }
 .container_Explore .gallery-image {
-    @apply overflow-hidden justify-center items-center flex;
+    @apply overflow-hidden justify-center items-center flex p-5;
 }
 .container_Explore .gallery-image li {
-    @apply block;
+    @apply hidden;
 }
-.container_Explore .gallery-image li:first-child {
-    @apply block;
+.container_Explore .gallery-image li :first-child {
+    @apply shadow-orange-300 flex-auto ;
 }
-/* .container_Explore .gallery-image i {
-    @apply left-2;
-} */
-/* .container_Explore .gallery-image i {
-    @apply left-2;
-} */
+.container_Explore .gallery-image .btn-left {
+    @apply border-2 border-solid rounded-full bg-white;
+}
+.container_Explore .gallery-image .btn-right {
+    @apply border-2 border-solid rounded-full absolute right-4 bg-white;
+}
+.container_Explore .gallery-image .btn-left:hover, .btn-right :hover {
+    @apply border-2 border-solid border-green-400 rounded-full;
+}
+.container_Explore .gallery-image i {
+    @apply text-slate-200 text-4xl p-3;
+}

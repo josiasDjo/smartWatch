@@ -575,9 +575,9 @@ header {
   border-bottom-width: 2px;
   border-style: solid;
   --tw-border-opacity: 1;
-  border-color: rgb(226 232 240 / var(--tw-border-opacity));
+  border-color: rgb(203 213 225 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
   padding-top: 1.5rem;
   padding-right: 1.75rem;
   padding-left: 1.75rem;
@@ -648,7 +648,7 @@ header .iconSearch i:hover {
   height: 24rem;
   width: 100%;
   --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
   text-align: center;
 }
 
@@ -657,20 +657,49 @@ header .iconSearch i:hover {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  padding: 1.25rem;
 }
 
 .container_Explore .gallery-image li {
-  display: block;
+  display: none;
 }
 
-.container_Explore .gallery-image li:first-child {
-  display: block;
+.container_Explore .gallery-image li :first-child {
+  flex: 1 1 auto;
+  --tw-shadow-color: #fdba74;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
-/* .container_Explore .gallery-image i {
-    @apply left-2;
-} */
+.container_Explore .gallery-image .btn-left {
+  border-radius: 9999px;
+  border-width: 2px;
+  border-style: solid;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 
-/* .container_Explore .gallery-image i {
-    @apply left-2;
-} */
+.container_Explore .gallery-image .btn-right {
+  position: absolute;
+  right: 1rem;
+  border-radius: 9999px;
+  border-width: 2px;
+  border-style: solid;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.container_Explore .gallery-image .btn-left:hover, .btn-right :hover {
+  border-radius: 9999px;
+  border-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(74 222 128 / var(--tw-border-opacity));
+}
+
+.container_Explore .gallery-image i {
+  padding: 0.75rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}

@@ -13,7 +13,7 @@
 <body>
     <div class="container_Explore">
         <ul class="gallery-image">
-            <i class="fa-solid fa-left-long"></i>
+            <button type="submit" class="btn-left"><i class="fa-solid fa-chevron-left"></i></button>
             <li>
                 <img src="./src/images/smart watch/bg remove/watcher (1).png" alt="" class="">
             </li>
@@ -29,7 +29,8 @@
             <li>
                 <img src="./src/images/smart watch/bg remove/watcher (5).png" alt="" class="">
             </li>
-            <i class="fa-solid fa-right-long"></i>
+            <button type="submit" class="btn-right"><i class="fa-solid fa-chevron-right"></i></i></button>
+            
         </ul>
     </div>
 </body>
