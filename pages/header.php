@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch Shop</title>
     <?php
         require_once("pageIconStyle.php");
         echo $styleLink;
         echo $iconLink;
     ?>
-    <title>Smart Watch Shop</title>
 </head>
 <body>
     <header>

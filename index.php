@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <?php
-        require_once("./pages/header.php");
-        require_once("pages/pageIconStyle.php");
+        require_once("pages/header.php");
     ?>
 </head>
 <body>
     <?php
-        include("pages/explore.php");
+        include_once("pages/explore.php");
     ?>
 </body>
 </html>
