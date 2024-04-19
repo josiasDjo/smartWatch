@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        require_once("pages/explore.php");
+        include("pages/explore.php");
     ?>
 </body>
 </html>

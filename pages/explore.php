@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
-        require_once("./pages/header.php");
-        require_once("pageIconStyle.php");
+        // include("pageIconStyle.php");
+        // echo $styleLink;
+        // echo $iconLink;
     ?>
-    <?php echo $styleLink;  ?>
+    <title>Smart Watch Shop</title>
 </head>
 <body>
     <div class="container_Explore">
