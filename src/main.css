@@ -38,13 +38,17 @@ header .iconSearch input {
 header .iconSearch input{
     @apply hidden;
 }
+header .iconSearch:hover {
+    @apply bg-red-500;
+}
 /* header end */
 
-/* Test */
+/* EXPLORE section */
 
-.container {
-    @apply w-full justify-center items-center m-auto p-10;
+.container_Explore {
+    @apply w-full h-44 bg-green-300;
 }
-.testAnimation {
-    @apply h-40 w-56 bg-gray-600 rounded-md;
+.container_Explore i {
+    @apply bg-red-500;
 }
+

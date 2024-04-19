@@ -668,22 +668,24 @@ header .iconSearch input {
   display: none;
 }
 
+header .iconSearch:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 /* header end */
 
-/* Test */
+/* EXPLORE section */
 
-.container {
-  margin: auto;
+.container_Explore {
+  height: 11rem;
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding: 2.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
 }
 
-.testAnimation {
-  height: 10rem;
-  width: 14rem;
-  border-radius: 0.375rem;
+.container_Explore i {
   --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
+
