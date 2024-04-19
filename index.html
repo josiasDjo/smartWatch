@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php
-        require_once("./pages/header.php");
-        require_once("pages/pageIconStyle.php");
-    ?>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php
-        echo $iconLink;
-        echo $styleLink;
-    ?>
+    <link rel="stylesheet" href="dist/output.css">
     <title>Document</title>
-
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="container">
@@ -21,11 +13,5 @@
             <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p> -->
         </div>
     </div>
-
-    <?php
-        echo $scriptCDN ." ";
-        echo $scriptLink;
-    ?>
-
 </body>
 </html>
