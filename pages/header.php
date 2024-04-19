@@ -1,30 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Watch Shop</title>
-    <?php
-        require("pageIconStyle.php");
-        echo $styleLink;
-        echo $iconLink;
-    ?>
-</head>
-<body>
-    <header>
-        <img src="./src/images/images.png" alt="logo">
-        <ul class="subject">
-            <li>Home</li>
-            <li>Explore</li>
-            <li>Blog</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
 
-        <ul class="iconSearch">
-            <input type="text" placeholder="Search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </ul>
-    </header>
-</body>
-</html>
+<?php
+    echo $styleLink;
+    echo $iconLink;    // echo $scriptLink;
+?>
+
+<header>
+    <img src="./src/images/images.png" alt="logo">
+    <ul class="subject">
+        <li>Home</li>
+        <li>Explore</li>
+        <li>Blog</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+
+    <ul class="iconSearch">
+        <input type="text" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </ul>
+</header>
