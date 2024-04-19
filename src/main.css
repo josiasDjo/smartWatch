@@ -38,7 +38,7 @@ header .iconSearch input {
 header .iconSearch input{
     @apply hidden;
 }
-header .iconSearch:hover {
+header .iconSearch i:hover {
     @apply bg-red-500;
 }
 /* header end */
@@ -46,9 +46,20 @@ header .iconSearch:hover {
 /* EXPLORE section */
 
 .container_Explore {
-    @apply w-full h-44 bg-green-300;
+    @apply w-full h-96 bg-slate-300 text-center flex;
 }
-.container_Explore i {
-    @apply bg-red-500;
+.container_Explore .gallery-image {
+    @apply overflow-hidden justify-center items-center flex;
 }
-
+.container_Explore .gallery-image li {
+    @apply block;
+}
+.container_Explore .gallery-image li:first-child {
+    @apply block;
+}
+/* .container_Explore .gallery-image i {
+    @apply left-2;
+} */
+/* .container_Explore .gallery-image i {
+    @apply left-2;
+} */

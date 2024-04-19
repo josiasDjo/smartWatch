@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <?php
-        require_once("pages/header.php");
+        require("pages/header.php");
+        
     ?>
 </head>
 <body>

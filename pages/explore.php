@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
-        include("pageIconStyle.php");
+        require ("pages/pageIconStyle.php");
         echo $styleLink;
         echo $iconLink;
     ?>
@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container_Explore">
-        <ul>
+        <ul class="gallery-image">
             <i class="fa-solid fa-left-long"></i>
             <li>
                 <img src="./src/images/smart watch/bg remove/watcher (1).png" alt="" class="">

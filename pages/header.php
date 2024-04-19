@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Watch Shop</title>
     <?php
-        require_once("pageIconStyle.php");
+        require("pageIconStyle.php");
         echo $styleLink;
         echo $iconLink;
     ?>
