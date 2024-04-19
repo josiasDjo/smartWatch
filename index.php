@@ -11,11 +11,6 @@
 
 </head>
 <body>
-    <!-- <div class="container">
-        <div class="testAnimation">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-        </div>
-    </div> -->
 
 </body>
 </html>
