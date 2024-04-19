@@ -1,9 +1,4 @@
 
-<?php
-    echo $styleLink;
-    echo $iconLink;    // echo $scriptLink;
-?>
-
 <header>
     <img src="./src/images/images.png" alt="logo">
     <ul class="subject">
