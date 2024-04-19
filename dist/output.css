@@ -666,10 +666,8 @@ header .iconSearch i:hover {
   display: none;
 }
 
-.container_Explore .gallery-image li :first-child {
+.container_Explore .gallery-image li:first-child {
   display: block;
-  --tw-shadow-color: #fdba74;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .container_Explore .gallery-image .btn-left {

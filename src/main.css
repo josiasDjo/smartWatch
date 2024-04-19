@@ -54,8 +54,8 @@ header .iconSearch i:hover {
 .container_Explore .gallery-image li {
     @apply hidden;
 }
-.container_Explore .gallery-image li :first-child {
-    @apply shadow-orange-300 block ;
+.container_Explore .gallery-image li:first-child {
+    @apply block ;
 }
 .container_Explore .gallery-image .btn-left {
     @apply border-2 border-solid rounded-full bg-white drop-shadow-xl;
