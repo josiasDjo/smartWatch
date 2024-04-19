@@ -46,26 +46,29 @@ header .iconSearch i:hover {
 /* EXPLORE section */
 
 .container_Explore {
-    @apply w-full h-96 bg-gray-100 text-center flex;
+    @apply w-full h-96 bg-gray-100 items-center justify-center flex;
 }
 .container_Explore .gallery-image {
-    @apply overflow-hidden justify-center items-center flex p-5;
+    @apply overflow-hidden justify-center items-center flex p-5 w-9/12;
 }
 .container_Explore .gallery-image li {
     @apply hidden;
 }
+.container_Explore .gallery-image li img {
+    @apply w-80;
+}
 .container_Explore .gallery-image li:first-child {
-    @apply block ;
+    @apply block;
 }
-.container_Explore .gallery-image .btn-left {
-    @apply border-2 border-solid rounded-full bg-white drop-shadow-xl;
+.container_Explore .btn-left {
+    @apply border-2 border-solid rounded-full bg-white drop-shadow-xl absolute left-4;
 }
-.container_Explore .gallery-image .btn-right {
-    @apply border-2 border-solid rounded-full absolute right-4 bg-white drop-shadow-xl;
+.container_Explore .btn-right {
+    @apply border-2 border-solid rounded-full absolute right-4 bg-white drop-shadow-xl justify-center items-center flex;
 }
-.container_Explore .gallery-image .btn-left:hover, .btn-right :hover {
+.container_Explore  .btn-left:hover, .btn-right :hover {
     @apply border-2 border-solid border-green-400 rounded-full drop-shadow-xl;
 }
-.container_Explore .gallery-image i {
+.container_Explore  i {
     @apply text-slate-200 text-4xl p-3;
 }

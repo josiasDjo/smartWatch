@@ -649,13 +649,15 @@ header .iconSearch i:hover {
   display: flex;
   height: 24rem;
   width: 100%;
+  align-items: center;
+  justify-content: center;
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-  text-align: center;
 }
 
 .container_Explore .gallery-image {
   display: flex;
+  width: 75%;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -666,11 +668,17 @@ header .iconSearch i:hover {
   display: none;
 }
 
+.container_Explore .gallery-image li img {
+  width: 20rem;
+}
+
 .container_Explore .gallery-image li:first-child {
   display: block;
 }
 
-.container_Explore .gallery-image .btn-left {
+.container_Explore .btn-left {
+  position: absolute;
+  left: 1rem;
   border-radius: 9999px;
   border-width: 2px;
   border-style: solid;
@@ -680,9 +688,12 @@ header .iconSearch i:hover {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.container_Explore .gallery-image .btn-right {
+.container_Explore .btn-right {
   position: absolute;
   right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 9999px;
   border-width: 2px;
   border-style: solid;
@@ -692,7 +703,7 @@ header .iconSearch i:hover {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.container_Explore .gallery-image .btn-left:hover, .btn-right :hover {
+.container_Explore  .btn-left:hover, .btn-right :hover {
   border-radius: 9999px;
   border-width: 2px;
   border-style: solid;
@@ -702,7 +713,7 @@ header .iconSearch i:hover {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.container_Explore .gallery-image i {
+.container_Explore  i {
   padding: 0.75rem;
   font-size: 2.25rem;
   line-height: 2.5rem;
