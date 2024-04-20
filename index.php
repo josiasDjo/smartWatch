@@ -20,7 +20,13 @@
 </body>
 
 <script>
-    import { gsap } from "gsap";
+    import gsap from "gsap";
+    import scrollTrigger from "scrollTrigger";
+
+    gsap.to(".container_Explore", {
+        scrollTrigger: ".container_Explore", // start the animation when ".box" enters the viewport (once)
+        x: 500,
+    });
 
 </script>
 </html>
