@@ -16,6 +16,7 @@
         require_once("pages/header.php");
         echo "\n";
         include_once("pages/explore.php");
+        require_once("bdScript/backend.php");
     ?>
 </body>
 
